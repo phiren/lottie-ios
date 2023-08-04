@@ -41,7 +41,7 @@ open class LottieAnimationViewBase: UIView {
       #if !os(xrOS)
       UIScreen.main.scale
       #else
-      1.0
+      1.5
       #endif
   }
 
